@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+# Datos locales (no versionar datos crudos)
+data/
+*.parquet
+*.csv
+!sql/**/*.csv
+# Notebooks / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+# dbt / airflow
+target/
+dbt_packages/
+logs/
